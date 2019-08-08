@@ -20,9 +20,7 @@ Rails.application.routes.draw do
   #       get 'short'
   #       post 'toggle'
   #     end
-  #
-  root 'actors#index'
-  
+  # 
   resources :actors
   #     collection do
   #       get 'sold'
