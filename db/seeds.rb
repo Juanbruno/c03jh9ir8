@@ -1,4 +1,14 @@
 # Data taken from http://imdb.com/
+Actor.first_or_create([
+  { name: 'Elizaneth Olsen' },
+  { name: 'Robin Williams' },
+  { name: 'Scarlett Johansson' },
+  { name: 'Philip Seymour Hoffman' },
+  { name: 'Jared Leto' },
+  { name: 'Robert Downey Jr' }
+])
+
+
 
 Actor.create(name: "Elizabeth Olsen", 
   bio: "Elizabeth Olsen was born and raised in Sherman Oaks, California, the daughter of Jarnette Jarnie (Jones), a personal manager, and David Dave Olsen, a real estate developer and mortgage banker. Elizabeth is the younger sister of twins Mary-Kate Olsen and Ashley Olsen, who became famous as TV and movie stars at an early age",
@@ -51,3 +61,4 @@ Actor.create(name: "Robert Downey Jr.",
   alive: true,
   image_url: "http://ia.media-imdb.com/images/M/MV5BMTAwNjk2NTUyMzleQTJeQWpwZ15BbWU3MDQ2NzQzMTc@._V1_SY317_CR2,0,214,317_AL_.jpg"
   )
+
